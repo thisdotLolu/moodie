@@ -1,0 +1,67 @@
+.container{
+    background-color:white;
+    padding-top: 100px;
+}
+
+.inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-image: url(../../public/bgsectionTwo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: THICCCBOI;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding: 10px;
+    background-color:#E3E1F4;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    color: #2D256A;
+    margin-bottom: 20px;
+}
+
+.eachContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.eachContainer div{
+    background-color: white;
+    width:250px;
+    height: 250px;
+    margin: 15px;
+    box-shadow: 1px 5px 12px 1px lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.eachContainer div img{
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+    margin-bottom:10px;
+}
+
+.eachContainer div h3{
+    font-weight: 900;
+    font-family: 'THICCCBOI BOLD';
+    margin-top: 10px;
+}
+
+.eachContainer p{
+    text-align: start;
+    font-size: .8rem;
+    line-height: 2;
+}

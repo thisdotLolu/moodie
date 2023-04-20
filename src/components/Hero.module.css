@@ -1,0 +1,99 @@
+.container{
+    background-color: white;
+}
+
+.inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.left{
+    font-family: 'THICCCBOI';
+    text-align: start;
+    width: 50%;
+}
+
+
+@font-face {
+    font-family: 'THICCCBOI BOLD';
+    src: local('THICCCBOI BOLD'), url(../fonts/TTF/THICCCBOI-Bold.ttf) format('truetype');
+  }
+
+.left h2{
+    font-size: 1.9rem;
+    font-weight: 900;
+    font-family: 'THICCCBOI BOLD';
+    margin-bottom: 20px;
+}
+
+.left p{
+    color:#808080;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.right{
+    width: 50%;
+}
+
+.right img{
+    height:400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.left button{
+    background-color:#5F51C2;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: 'THICCCBOI';
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.appStore{
+    display: flex;
+    color:black;
+    border: 1px solid;
+    width: fit-content;
+    height: 50px;
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px;
+    font-size: .7rem;
+    margin: 5px;
+}
+
+.appStore img{
+    object-fit: contain;
+    margin-right: 3px;
+}
+.googlePlay{
+    display: flex;
+    color:black;
+    border: 1px solid;
+    width: fit-content;
+    height: 50px;
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px;
+    font-size: .7rem;
+    margin: 5px;
+}
+.googlePlay img{
+    object-fit: contain;
+    margin-right: 3px;
+}
+
+.downloadOn{
+    display: flex;
+}

@@ -1,0 +1,42 @@
+.container{
+    background-color: white;
+}
+
+.inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: 'THICCCBOI';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.header{
+    padding: 10px;
+    background-color:#E3E1F4;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    color: #2D256A;
+    margin-bottom: 20px;
+}
+
+
+@font-face {
+    font-family: 'THICCCBOI BOLD';
+    src: local('THICCCBOI BOLD'), url(../fonts/TTF/THICCCBOI-Bold.ttf) format('truetype');
+  }
+
+.info h2{
+    color:#0B0A33;
+    font-size: 1.8rem;
+    font-family: 'THICCCBOI BOLD';
+    margin-bottom: 20px;
+}
+
+.info p{
+    width: 400px;
+    color: #7A7D9C;
+}

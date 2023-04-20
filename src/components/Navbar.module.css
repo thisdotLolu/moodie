@@ -1,0 +1,53 @@
+.container{
+    height:100px;
+}
+
+.inner{
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: 'THICCCBOI';
+    font-size:.8rem;
+    height: 100%;
+    align-items: center;
+}
+
+.inner img{
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+}
+
+.middleNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleNav p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leftNav{
+    display: flex;
+    align-items: center;
+}
+
+.leftNav p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leftNav button{
+    font-family: 'THICCCBOI';
+    background-color: #5F51C2;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
