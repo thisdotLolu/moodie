@@ -9,3 +9,98 @@
   src: local('THICCCBOI'), url(./fonts/TTF/THICCCBOI-Regular.ttf) format('truetype');
 }
 
+.slider{
+  background-image: url(../public/backgroundslide.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:800px;
+  padding-top: 100px;
+  height:500px;
+  margin:auto;
+  position:relative;
+  width:100%;
+  display: grid;
+  /* align-items: center;
+  justify-content: center; */
+  place-items: center;
+  overflow: hidden;
+  background-color: WHITE;
+}
+
+.slide-track{
+  display: flex;
+  width: calc(250px * 10);
+  animation: scroll 40s linear infinite;
+  height: 400px;
+}
+
+@keyframes scroll {
+  0%{
+      transform:translateX(0)
+  }
+  100%{
+      transform: translateX(calc(-250px * 9));
+  }
+}
+.slide{
+  height: 270px;
+  width:270px;
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+.slider img{
+  width:300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.partners{
+  background-image: url(../public/wavy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 100px;
+  height:500px;
+  margin:auto;
+  position:relative;
+  width:100%;
+  display: grid;
+  /* align-items: center;
+  justify-content: center; */
+  place-items: center;
+  overflow: hidden;
+}
+.partners .slide-track{
+  display: flex;
+  /* width: calc(250px * 10);
+   */
+   width: 100%;
+  animation: scroll 40s linear infinite;
+  height: 400px;
+}
+
+.partners .slide{
+  height: 270px;
+  width:150px;
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+
+.partners .slide img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.partners .slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners .slide .small_logo{
+  width: 30%;
+  height: 30%;
+}
