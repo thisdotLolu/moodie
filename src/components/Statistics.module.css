@@ -1,0 +1,31 @@
+.container{
+    padding-top:200px;
+    background-color: white;
+}
+
+.inner{
+    background-color:#E3E1F4 ;
+    max-width: 950px;
+    margin: 0 auto;
+    border-radius: 40px;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: THICCCBOI;
+}
+
+.inner div{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner div h2{
+    font-size: 2rem;
+    font-family: THICCCBOI BOLD;
+    color:#27205B;
+    margin-bottom: 20px;
+}
+.inner div p{
+    color: #27205B;
+}

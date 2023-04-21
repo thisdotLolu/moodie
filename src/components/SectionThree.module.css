@@ -1,0 +1,59 @@
+.container{
+    background-color: white;
+    padding-top: 100px;
+    height: 600px;
+}
+
+
+.inner{
+    display:flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    font-family: THICCCBOI;
+    /* flex: 1.5; */
+    height: 100%;
+    width: 500px;
+}
+
+.left p{
+    color: #7A7D9C;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.left h2{
+    font-size: 2rem;
+    font-family: THICCCBOI BOLD;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.left button{
+    font-family: 'THICCCBOI';
+    background-color: #5F51C2;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center
+}
+
+.right{
+ /* flex: 1.5;    */
+ height: 100%;
+ /* width: 100%; */
+ width: 500px;
+}
+
+.right img{
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+}

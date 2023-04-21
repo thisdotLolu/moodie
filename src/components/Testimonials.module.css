@@ -24,19 +24,7 @@
 }
 
 
-@font-face {
-    font-family: 'THICCCBOI BOLD';
-    src: local('THICCCBOI BOLD'), url(../fonts/TTF/THICCCBOI-Bold.ttf) format('truetype');
-  }
-
-.info h2{
-    color:#0B0A33;
-    font-size: 1.8rem;
-    font-family: 'THICCCBOI BOLD';
-    margin-bottom: 20px;
-}
-
-.info p{
+.content p{
     width: 500px;
     color: #7A7D9C;
 }
