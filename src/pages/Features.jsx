@@ -3,6 +3,7 @@ import FeatureSection from '../components/FeatureSection'
 import Navbar from '../components/Navbar'
 import styles from './Features.module.css'
 import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
 
 const features=[
     {
@@ -21,12 +22,18 @@ const features=[
 ]
 
 
-const Features = () => {
+const Features = ({open,setOpen}) => {
   return (
     <div className={styles.outerContainer}>
     <div className={styles.container}>
         <div className={styles.inner}>
         <Navbar
+        open={open}
+        setOpen={setOpen}
+       />
+       <MobileNav
+       open={open}
+       setOpen={setOpen}
        />
             <div className={styles.heroText}>
                 <h2>Meditate all day long!</h2>

@@ -42,6 +42,7 @@
     width: 400px;
     height: 400px;
     position: relative;
+    display: flex;
 }
 
 .main_img{
@@ -62,4 +63,25 @@
     background-color: white;
     top:80px;
     left: -50px;
+}
+@media screen and (max-width:600px) {
+    .inner{
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .left{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right{
+        width: 70vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
 }

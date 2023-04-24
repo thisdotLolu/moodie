@@ -88,3 +88,20 @@
     font-weight: 1000;
     cursor: pointer;
 }
+
+.openNav{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .leftNav,.middleNav{
+        display:none;
+    }
+    .inner{
+        max-width: 90vw;
+    }
+
+    .openNav{
+        display: block;
+    }
+}

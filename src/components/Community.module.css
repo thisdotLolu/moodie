@@ -7,7 +7,7 @@
     max-width: 100%;
     margin: 0 auto;
     padding-top:100px;
-    height: 500px;
+    height: fit-content;
 }
 
 .inner div{
@@ -15,10 +15,11 @@
 }
 
 .inner div img{
-    height: 400px;
+    height: 300px;
     width: 100%;
     object-fit:contain;
 }
+
 
 .right{
     background-color:#27205B;
@@ -54,4 +55,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+
+@media screen and (max-width:600px) {
+    .inner{
+        flex-direction: column;
+    }
 }

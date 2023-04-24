@@ -100,3 +100,22 @@
     margin-top: 20px;
     color:#7A7D9C;
 }
+
+@media screen and (max-width:600px) {
+    .right, .bottom, .top{
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+        margin: 0 auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* margin-top: 20px; */
+    }
+    .inner p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .inner h2{
+        margin-top: 20px;
+    }
+}

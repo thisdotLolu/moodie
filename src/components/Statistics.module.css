@@ -29,3 +29,15 @@
 .inner div p{
     color: #27205B;
 }
+ @media screen and (max-width:600px) {
+    .inner div h2{
+        font-size: 1.3rem;
+    }
+    .inner div p{
+        font-size: .7rem;
+    }
+    .inner{
+        width: 90vw;
+        padding: 30px;
+    }
+ }

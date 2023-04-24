@@ -3,10 +3,12 @@ import styles from './Navbar.module.css'
 import {MdArrowDropDown} from 'react-icons/md';
 import {BsArrowRightShort} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({open,setOpen}) => {
   const[show, setShow]=useState(false)
   const[show2, setShow2]=useState(false)
+
 
   // const handleMouseEnter=()=>{
   //   setHover(true)
@@ -14,10 +16,13 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
         <div className={styles.inner}>
+            <Link to='/'>
             <img 
             src='/PlanzerLogo.png'
             alt='logo'
             />
+            </Link>
+            
 
 
             <div className={styles.middleNav}>
@@ -65,7 +70,16 @@ const Navbar = () => {
                 size={20}
                 /></span></button>
             </div>
+
+            <div>
+              <FaBars
+              className={styles.openNav}
+              onClick={()=>setOpen(true)}
+              size={30}
+              />
+            </div>
         </div>
+
     </div>
   )
 }

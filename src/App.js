@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -9,14 +10,21 @@ import SignUp from './pages/SignUp';
 
 
 function App() {
+  const[open, setOpen]=useState(false)
   return (
     <div className="App">
      
       <Routes>
-        <Route element={<Home/>} path='/'/>
+        <Route element={<Home
+        open={open}
+        setOpen={setOpen}
+        />} path='/'/>
         <Route element={<SignUp/>} path='/signup'/>
         <Route element={<Login/>} path='/login'/>
-        <Route element={<Features/>} path='/features'/>
+        <Route element={<Features
+        open={open}
+        setOpen={setOpen}
+        />} path='/features'/>
       </Routes>
     </div>
   );

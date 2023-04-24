@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Community from '../components/Community';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import MobileNav from '../components/MobileNav';
 import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import People from '../components/People';
@@ -13,10 +14,18 @@ import Testimonies from '../components/Testimonies';
 
 
 
-const Home = () => {
+const Home = ({open,setOpen}) => {
+  
   return (
     <>
-       <Navbar/>
+       <MobileNav
+       open={open}
+       setOpen={setOpen}
+       />
+       <Navbar
+        open={open}
+        setOpen={setOpen}
+       />
        <Hero/>
        <SectionOne/>
        <Partners/>

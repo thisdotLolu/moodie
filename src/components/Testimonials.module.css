@@ -28,3 +28,12 @@
     width: 500px;
     color: #7A7D9C;
 }
+
+@media screen and (max-width:600px) {
+    .inner{
+        width: 90vw;
+    }
+    .content p{
+        width: 100%;
+    }
+}

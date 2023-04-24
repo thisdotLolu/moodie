@@ -97,3 +97,23 @@
 .downloadOn{
     display: flex;
 }
+
+@media screen and (max-width:600px) {
+    .inner{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .left,.right{
+        width: 90vw;
+        text-align: center;
+    }
+    .left button{
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .downloadOn{
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,57 @@
+.container{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        display: block;
+        background-color: white;
+        width: 100vw;
+        position: fixed;
+        top:0;
+        left: 0;
+        margin: 0 auto;
+        z-index: 10000;
+        height: 100vh;
+        font-family: THICCCBOI;
+        padding: 5px;
+    }
+    
+    .inner{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .inner button{
+        font-family: 'THICCCBOI';
+        background-color: #5F51C2;
+        color:white;
+        border: none;
+        border-radius: 20px;
+        padding: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .inner p{
+        padding: 10px;
+    }
+    
+    .inner h3{
+        margin-top: 15px;
+        padding: 10px;
+    }    
+
+    .close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
+

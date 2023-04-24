@@ -18,14 +18,14 @@ const Hero = () => {
                 <div className={styles.downloadOn}>
                 <div className={styles.appStore}>
                     <img src='/apple.png' alt='apple'/>
-                    <p>Download on the <br/> <span style={{fontSize:'1.3rem', color:"black"}}>App Store</span></p>
+                    <p>Download on the <br/> <span style={{fontSize:'1.0rem', color:"black"}}>App Store</span></p>
                 </div>
 
                 <div className={styles.googlePlay}>
                     <img src='/googlePlay.png'
                     alt='google play'
                     />
-                    <p>Download on <br/> <span style={{fontSize:'1.3rem', color:"black"}}>Google Play</span></p>
+                    <p>Download on <br/> <span style={{fontSize:'1.0rem', color:"black"}}>Google Play</span></p>
                 </div>
                 </div>
                 
