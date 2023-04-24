@@ -3,7 +3,7 @@ import { FaArrowLeft, FaTimes } from 'react-icons/fa'
 import styles from './SignUp.module.css'
 import Slider from '../components/AuthSlider'
 
-const SignUp = () => {
+const Login = () => {
   return (
     <div className={styles.container}>
         <div className={styles.inner}>
@@ -26,19 +26,21 @@ const SignUp = () => {
 
                 <div className={styles.formSection}>
                     <form>
-                        <div>
+                        <div
+                        
+                        >
                         <label>
                            <p>First name</p> 
                             <input
                             type='text'                        
                             />
                         </label>
-                        <label>
+                        {/* <label>
                             <p>Last name</p>
                             <input
                             type='text'                        
                             />
-                        </label>
+                        </label> */}
                         </div>
                         
 
@@ -51,14 +53,14 @@ const SignUp = () => {
                             />
                         </label>
 
-                        <label>
+                        {/* <label>
 
                             <p>Phone Number</p>
                             
                             <input
                             type='text'                        
                             />
-                        </label>
+                        </label> */}
                         
                         </div>
 
@@ -71,13 +73,13 @@ const SignUp = () => {
                             />
                         </label>
 
-                        <label>
+                        {/* <label>
                             <p>Confirm Password</p>
                             
                             <input
                             type='text'                        
                             />
-                        </label>
+                        </label> */}
                         </div>
                     </form>
                 </div>
@@ -85,16 +87,18 @@ const SignUp = () => {
                 <div
                 className={styles.agree}
                 >
-                    <input
+                    {/* <input
                     type='checkbox'
                     />
-                    <span>By clicking here, I state that I have read and understood the terms and conditions</span>
+                    <span>By clicking here, I state that I have read and understood the terms and conditions</span> */}
                     
-                    <button>
+                    <button
+                    style={{width:'95%'}}
+                    >
                         Sign Up
                     </button>
 
-                    <p>Already have an account? <span style={{color:'#5F51C2'}}>Log In</span></p>
+                    {/* <p>Already have an account? <span style={{color:'#5F51C2'}}>Log In</span></p> */}
 
                     <div className={styles.line}>
                         <div></div>
@@ -122,4 +126,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default Login
