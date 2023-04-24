@@ -23,7 +23,9 @@ const MobileNav = ({open,setOpen}) => {
                 <Link 
                 style={{textDecoration:'none',color:'black'}}
                 to='/features'>
-                <h3>Features <span><MdArrowDropDown/></span></h3>
+                <h3
+                onClick={()=>setOpen(false)}
+                >Features <span><MdArrowDropDown/></span></h3>
                 </Link>
       
                <div className={styles.featuresOptions}>

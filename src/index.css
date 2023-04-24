@@ -3,7 +3,9 @@
   padding:0;
   box-sizing: border-box;
 }
-
+html,body{
+  overflow-x: hidden;
+}
 @font-face {
   font-family: 'THICCCBOI';
   src: local('THICCCBOI'), url(./fonts/TTF/THICCCBOI-Regular.ttf) format('truetype');
