@@ -11,8 +11,8 @@ const Footer = () => {
         <div className={styles.inner}>
             <div className={styles.top}>
             <div className={styles.left}>
-                <img src='/PlanzerLogo.png'
-                alt='planzer'
+                <img src='/moodieLogo.png'
+                alt='moodie'
                 />
                 <p>Stay organized and productive with Planzer.io</p>
                 <p>Subscribe to our newsletter</p>

@@ -41,7 +41,14 @@ const MobileNav = ({open,setOpen}) => {
                 <div
                 className={styles.features}
                 >
-                <h3>Use Cases <span><MdArrowDropDown/></span></h3>
+                  <Link 
+                style={{textDecoration:'none',color:'black'}}
+                to='/use-cases'>
+                  <h3
+                 onClick={()=>setOpen(false)}
+                >Use Cases <span><MdArrowDropDown/></span></h3>
+                </Link>
+                
                 <div className={styles.featuresOptions}>
                   <p>Goals</p>
                   <p>Founder</p>

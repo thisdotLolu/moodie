@@ -18,7 +18,7 @@ const Navbar = ({open,setOpen}) => {
         <div className={styles.inner}>
             <Link to='/'>
             <img 
-            src='/PlanzerLogo.png'
+            src='/moodieLogo.png'
             alt='logo'
             />
             </Link>
@@ -53,7 +53,12 @@ const Navbar = ({open,setOpen}) => {
                 onMouseEnter={()=>setShow2(true)}
                 onMouseLeave={()=>setShow2(false)}
                 >
-                <p>Use Cases <span><MdArrowDropDown/></span></p>
+                   <Link 
+                style={{textDecoration:'none',color:'black'}}
+                to='/use-cases'>
+                <p>Use Cases<span><MdArrowDropDown/></span></p>
+                </Link>
+{/* <p>Use Cases <span><MdArrowDropDown/></span></p> */}
                 {show2 && <div className={styles.featuresOptions}>
                   <p>Goals</p>
                   <p>Founder</p>
@@ -71,13 +76,13 @@ const Navbar = ({open,setOpen}) => {
                 /></span></button>
             </div>
 
-            <div>
+            
               <FaBars
               className={styles.openNav}
               onClick={()=>setOpen(true)}
               size={30}
               />
-            </div>
+            
         </div>
 
     </div>

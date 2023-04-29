@@ -6,6 +6,7 @@ import Features from './pages/Features';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import UseCases from './pages/UseCases';
 
 
 
@@ -25,6 +26,10 @@ function App() {
         open={open}
         setOpen={setOpen}
         />} path='/features'/>
+        <Route element={<UseCases
+        open={open}
+        setOpen={setOpen}
+        />} path='/use-cases'/>
       </Routes>
     </div>
   );
