@@ -118,4 +118,7 @@
     .inner h2{
         margin-top: 20px;
     }
+    .right{
+        padding: 10px;
+    }
 }

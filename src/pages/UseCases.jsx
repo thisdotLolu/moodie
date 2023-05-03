@@ -120,6 +120,35 @@ const UseCases = ({open,setOpen}) => {
                     </SwiperSlide>))}
                 </Swiper>
                 </div>
+                
+                <div
+                className={styles.mobileSwiperContainer}
+                >
+                <Swiper 
+                 slidesPerView={1}
+                 spaceBetween={30}
+                 pagination={{
+                   clickable: true,
+                 }}
+                 modules={[Pagination]}
+                 className="useCase_Swiper"
+                >
+                {slides.map((slide)=>(
+                    <SwiperSlide
+                        className={styles.slideContainer}
+                        >
+                        <div className={styles.slideTop}>
+                            <img 
+                            src={slide.img}
+                            alt='icon'
+                            />
+                            <h4>{slide.header}</h4>
+                            <p>{slide.subHeader}</p>
+                        </div>
+                        <div>{slide.content}</div>
+                    </SwiperSlide>))}
+                </Swiper>
+                </div>
                 </div>
             </div>
        </div>

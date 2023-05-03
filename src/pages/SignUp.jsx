@@ -8,7 +8,7 @@ const SignUp = () => {
     <div className={styles.container}>
         <div className={styles.inner}>
             <div className={styles.left}>
-                <Slider/>
+                {/* <Slider/> */}
             </div>
 
             <div className={styles.right}>

@@ -15,7 +15,7 @@
 
 .sectionOne{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
@@ -129,3 +129,48 @@
     text-align: start;
 }
 
+.mobileSwiperContainer{
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    .inner{
+        max-width: 90vw;
+    }
+    .sectionOne .cards{
+        flex-direction: column;
+        width: 300px;
+        height: fit-content;
+    }
+
+    .sectionOne .cards div{
+        width: 80%;
+        margin: 30px;
+        border: 1px solid;
+    }
+
+    .sectionTwo{
+        width: 90vw;
+    }
+
+    .swiperContainer{
+        display: none;
+    }
+    .mobileSwiperContainer{
+        display: block;
+        margin-top: 100px;
+    }
+    .slideContainer{
+        width: 100px;
+        border: 1px solid;
+    }
+    .sectionTwo .subHeading{
+        flex-direction: column;
+    }
+    .sectionTwo .subHeading h2{
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}

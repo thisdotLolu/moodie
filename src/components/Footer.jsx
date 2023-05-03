@@ -14,7 +14,7 @@ const Footer = () => {
                 <img src='/moodieLogo.png'
                 alt='moodie'
                 />
-                <p>Stay organized and productive with Planzer.io</p>
+                <p>Stay organized and productive with Moodie.io</p>
                 <p>Subscribe to our newsletter</p>
 
                 <input

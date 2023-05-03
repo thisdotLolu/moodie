@@ -29,12 +29,35 @@ html,body{
   background-color: WHITE;
 }
 
+.overlay{
+  background-color: #27205B;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: THICCCBOI;
+  padding-left: 10PX;
+  padding-right: 10px;
+  opacity: 0;
+  transition: all 0.5s;
+  color: white;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
 .slide-track{
   display: flex;
   width: calc(250px * 10);
   animation: scroll 40s linear infinite;
   height: 400px;
 }
+
+
 
 @keyframes scroll {
   0%{
@@ -47,14 +70,17 @@ html,body{
 .slide{
   height: 270px;
   width:270px;
-  display: flex;
-  align-items: center;
   padding:10px;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .slider img{
   width:300px;
   height: 300px;
-  object-fit: contain;
+  /* object-fit: contain; */
+  object-fit:cover;
+  border-radius: 30px;
 }
 
 .partners{
