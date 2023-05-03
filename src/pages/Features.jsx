@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import styles from './Features.module.css'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
-import Zoom from 'react-reveal'
+import { Zoom } from "react-awesome-reveal";
 
 
 const features=[

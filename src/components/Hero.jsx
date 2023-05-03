@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import {BsArrowRightShort} from 'react-icons/bs'
-import Zoom from 'react-reveal'
+import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
     return(
@@ -44,4 +44,4 @@ const Hero = () => {
 }
 
 
-export default Hero
+export default Hero;
