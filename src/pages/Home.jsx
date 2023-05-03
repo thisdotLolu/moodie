@@ -11,7 +11,7 @@ import SectionThree from '../components/SectionThree';
 import SectionTwo from '../components/SectionTwo';
 import Statistics from '../components/Statistics';
 import Testimonies from '../components/Testimonies';
-
+import Fade from 'react-reveal'
 
 
 const Home = ({open,setOpen}) => {
@@ -26,6 +26,7 @@ const Home = ({open,setOpen}) => {
         open={open}
         setOpen={setOpen}
        />
+       <Fade top distancee="20%">
        <Hero/>
        <SectionOne/>
        <Partners/>
@@ -36,6 +37,8 @@ const Home = ({open,setOpen}) => {
        <Testimonies/>
        <People/>
        <Footer/>
+       </Fade>
+       
     </>
   )
 }

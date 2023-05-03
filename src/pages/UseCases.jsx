@@ -9,7 +9,7 @@ import { Pagination } from 'swiper'
 import { MdArrowLeft } from 'react-icons/md'
 import { FaArrowRight } from 'react-icons/fa'
 import Footer from '../components/Footer'
-
+import Fade from 'react-reveal'
 
 
 const slides=[
@@ -58,6 +58,7 @@ const UseCases = ({open,setOpen}) => {
     open={open}
     setOpen={setOpen}
     />
+    <Fade top distance='10%' duration={1550}>
     <div className={styles.container}>
         <div className={styles.inner}>
             <div className={styles.sectionOne}>
@@ -152,6 +153,8 @@ const UseCases = ({open,setOpen}) => {
                 </div>
             </div>
        </div>
+    </Fade>
+    
     <Footer/>
     </>
     

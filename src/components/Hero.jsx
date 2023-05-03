@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import {BsArrowRightShort} from 'react-icons/bs'
-
+import Zoom from 'react-reveal'
 
 const Hero = () => {
     return(
@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
                 
                 </div>
-
+                
                 <div className={styles.right}>
                     <img 
                     src='/heroImage.png'

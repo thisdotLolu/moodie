@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar'
 import styles from './Features.module.css'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
+import Zoom from 'react-reveal'
+
 
 const features=[
     {
@@ -24,7 +26,8 @@ const features=[
 
 const Features = ({open,setOpen}) => {
   return (
-    <div className={styles.outerContainer}>
+    <Zoom>
+        <div className={styles.outerContainer}>
     <div className={styles.container}>
         <div className={styles.inner}>
         <Navbar
@@ -35,6 +38,7 @@ const Features = ({open,setOpen}) => {
        open={open}
        setOpen={setOpen}
        />
+  
             <div className={styles.heroText}>
                 <h2>Meditate all day long!</h2>
                 <p>With Moodie, you have the opportunity to sit at home or anywhere and meditate to cleanse your body and mind. We give you over one million sounds to get you going.</p>
@@ -77,6 +81,8 @@ const Features = ({open,setOpen}) => {
     </div>
     <Footer/>
     </div>
+    </Zoom>
+    
     
   )
 }
