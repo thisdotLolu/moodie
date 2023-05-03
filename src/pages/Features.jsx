@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import styles from './Features.module.css'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
-import { Zoom } from "react-awesome-reveal";
+import { Fade} from "react-awesome-reveal";
 
 
 const features=[
@@ -26,7 +26,7 @@ const features=[
 
 const Features = ({open,setOpen}) => {
   return (
-    <Zoom>
+    <Fade>
         <div className={styles.outerContainer}>
     <div className={styles.container}>
         <div className={styles.inner}>
@@ -81,7 +81,7 @@ const Features = ({open,setOpen}) => {
     </div>
     <Footer/>
     </div>
-    </Zoom>
+    </Fade>
     
     
   )

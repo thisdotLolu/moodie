@@ -11,8 +11,7 @@ import SectionThree from '../components/SectionThree';
 import SectionTwo from '../components/SectionTwo';
 import Statistics from '../components/Statistics';
 import Testimonies from '../components/Testimonies';
-import { Fade } from "react-awesome-reveal";
-import { Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 const Home = ({open,setOpen}) => {
   
@@ -26,7 +25,7 @@ const Home = ({open,setOpen}) => {
         open={open}
         setOpen={setOpen}
        />
-       <Zoom>
+       <Slide>
   
        <Hero/>
        <SectionOne/>
@@ -38,7 +37,7 @@ const Home = ({open,setOpen}) => {
        <Testimonies/>
        <People/>
        <Footer/>
-       </Zoom>
+       </Slide>
        
        
     </>

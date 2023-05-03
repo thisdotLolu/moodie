@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Hero.module.css'
 import {BsArrowRightShort} from 'react-icons/bs'
 import { Fade } from "react-awesome-reveal";
+import {Zoom} from 'react-awesome-reveal'
+
 
 const Hero = () => {
     return(
@@ -30,13 +32,19 @@ const Hero = () => {
                 </div>
                 
                 </div>
-                
+
+
+              
                 <div className={styles.right}>
+                <Zoom delay={1e3}>
                     <img 
                     src='/heroImage.png'
                     alt='heroImage'
                     />
+                </Zoom>
                 </div>
+                
+                
                 
             </div>
         </div>
