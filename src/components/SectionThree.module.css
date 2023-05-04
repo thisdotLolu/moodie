@@ -6,7 +6,7 @@
 
 .inner{
     display:flex;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -41,9 +41,13 @@
     padding-right: 15px;
     padding-left: 15px;
     display: flex;
-    align-items: center
+    align-items: center;
+    transition:all 0.3s
 }
 
+.left button:hover{
+    background-color: #27205b;
+}
 .right{
  /* flex: 1.5;    */
  height: 100%;
@@ -69,5 +73,12 @@
     }
     .left{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .inner{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }

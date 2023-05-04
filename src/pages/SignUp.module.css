@@ -1,5 +1,6 @@
 .container{
     height: 100vh;
+    
 }
 
 .inner{
@@ -12,12 +13,14 @@
 
 .inner .left{
     flex: 1.5;
-    border: 1px solid blueviolet;
     background-color: transparent;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../../public/bg_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .faTimes{

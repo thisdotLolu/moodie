@@ -10,9 +10,11 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
-export default function App() {
+import styles from './AuthSlider.module.css'
+
+export default function Slider() {
   return (
-    <>
+    <div className={styles.container}>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -21,21 +23,27 @@ export default function App() {
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
-          depth: 100,
+          depth: 0,
           modifier: 1,
           slideShadows: true,
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className={styles.swiper_container}
       >
-        <SwiperSlide>
+        <SwiperSlide
+        className={styles.swiperSlide}
+        >
           <img src="/phone1.png" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide
+        className={styles.swiperSlide}
+        >
           <img src="phone2.png" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide
+        className={styles.swiperSlide}
+        >
           <img src="iphone1.png" />
         </SwiperSlide>
         {/* <SwiperSlide>
@@ -57,6 +65,6 @@ export default function App() {
           <img src="https://swiperjs.com/demos/images/nature-9.jpg" /> 
          </SwiperSlide> */}
       </Swiper>
-    </>
+    </div>
   );
 }

@@ -140,12 +140,12 @@
     }
     .sectionOne .cards{
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         height: fit-content;
     }
 
     .sectionOne .cards div{
-        width: 80%;
+        width: 100%;
         margin: 30px;
         border: 1px solid;
     }

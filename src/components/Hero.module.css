@@ -4,7 +4,7 @@
 
 .inner{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1600px;
     display: flex;
     align-items: center;
     height: fit-content;
@@ -16,6 +16,7 @@
     text-align: start;
     width: 50%;
 }
+
 
 
 @font-face {
@@ -58,6 +59,12 @@
     padding: 7px;
     margin-bottom: 20px;
     margin-top: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.left button:hover{
+    background-color: #2d256a;
 }
 
 .appStore{
@@ -120,5 +127,12 @@
     .downloadOn{
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .inner{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }

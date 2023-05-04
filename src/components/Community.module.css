@@ -31,6 +31,8 @@
     justify-content: space-between;
     padding-top: 110PX;
     padding-bottom: 110PX;
+    width: 100%;
+    /* border: 1px solid red; */
     /* padding-right: 30px; */
 }
 
@@ -38,7 +40,7 @@
     font-family: THICCCBOI BOLD;
     font-size: 1.5rem;
     color: white;
-    width: 70%;
+    width: 100%;
     text-align: start;
 }
 
@@ -46,7 +48,9 @@
     color: white;
     font-family: THICCCBOI;
     text-align: start;
-    width: 70%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .right p:nth-child(3){
@@ -55,11 +59,24 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.right p:nth-child(3):hover{
+    transform: translateY(-22%)
 }
 
 
 @media screen and (max-width:600px) {
     .inner{
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .right{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }

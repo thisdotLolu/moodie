@@ -39,7 +39,11 @@ const Navbar = ({open,setOpen}) => {
                 </Link>
       
                {show && <div className={styles.featuresOptions}>
-                  <p>Meditate</p>
+               <Link 
+                style={{textDecoration:'none',color:'black'}}
+                to='/features'>
+                <p>Meditate</p>
+                </Link>
                   <p>Events</p>
                   <p>Groups</p>
                   <p>Sounds</p>
@@ -60,7 +64,11 @@ const Navbar = ({open,setOpen}) => {
                 </Link>
 {/* <p>Use Cases <span><MdArrowDropDown/></span></p> */}
                 {show2 && <div className={styles.featuresOptions}>
-                  <p>Goals</p>
+                <Link 
+                style={{textDecoration:'none',color:'black'}}
+                to='/use-cases'>
+                <p>Goals</p>
+                </Link>
                   <p>Founder</p>
                   <p>Developer</p>
                 </div>}
@@ -70,10 +78,22 @@ const Navbar = ({open,setOpen}) => {
 
 
             <div className={styles.leftNav}>
-                <p>Sign in</p>
-                <button>Get Started <span><BsArrowRightShort
+               
+               <Link to='/login'
+               style={{textDecoration:'none'}}
+               >
+               <p>Sign in</p>
+               </Link>
+                
+                <Link 
+                style={{textDecoration:'none'}}
+                to='/signup'>
+                <button>
+                  Get Started <span><BsArrowRightShort
                 size={20}
-                /></span></button>
+                /></span>
+                </button>
+              </Link>
             </div>
 
             
