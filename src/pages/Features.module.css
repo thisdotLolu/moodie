@@ -57,6 +57,12 @@ background-color: #E3E1F4;
     border: none;
     margin: 20px;
     font-family: THICCCBOI;
+    transition: all 0.3s;
+}
+
+.buttons button:hover{
+        background-color: #2d256a;
+        color: white;
 }
 
 button img{

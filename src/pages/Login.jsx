@@ -2,8 +2,16 @@ import React from 'react'
 import { FaArrowLeft, FaTimes } from 'react-icons/fa'
 import styles from './SignUp.module.css'
 import Slider from '../components/AuthSlider'
+import { useNavigate } from 'react-router-dom';
+
+
 
 const Login = () => {
+    const navigate= useNavigate();
+
+    const prevPage=()=>{
+        navigate(-1)
+    }
   return (
     <div className={styles.container}>
         <div className={styles.inner}>
@@ -13,6 +21,7 @@ const Login = () => {
 
             <div className={styles.right}>
                 <FaTimes
+                onClick={prevPage}
                 className={styles.faTimes}
                 />
 

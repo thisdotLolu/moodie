@@ -33,7 +33,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
     padding-left: 50px;
     padding-right: 50px;
     flex: 1.5;
@@ -124,4 +123,13 @@ form input{
 }
 .agree img{
     margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .inner .left{
+        display: none;
+    }
+    form div{
+        flex-direction: column;
+    }
 }

@@ -47,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
+   
 }
 .eachContainer div img{
     object-fit: contain;
@@ -65,6 +66,8 @@
     text-align: start;
     font-size: .8rem;
     line-height: 2;
+    color:
+    #7A7D9C
 }
 
 @media screen and (max-width:600px) {

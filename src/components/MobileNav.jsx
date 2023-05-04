@@ -57,11 +57,21 @@ const MobileNav = ({open,setOpen}) => {
                 </div>
 
 
+                <Link 
+                style={{textDecoration:"none"}}
+                to='/login'>
+                <p>Sign in
+                </p>
+                </Link>
                 
-                <p>Sign in</p>
+                <Link 
+                style={{textDecoration:"none"}}
+                to='/signup'>
                 <button>Get Started <span><BsArrowRightShort
                 size={20}
                 /></span></button>
+                </Link>
+                
         </div>
     </div>}
     </>
