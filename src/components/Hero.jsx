@@ -15,7 +15,9 @@ const Hero = () => {
                 
                 <p>Mindfulness on-the-go for international students, one mind at a time. We are your mental health companion on the journey to success</p>
 
-                <button>Sign Up for Free <span><BsArrowRightShort size={20}/></span></button>
+                <button>Sign Up for Free <span><BsArrowRightShort 
+                 style={{marginTop:'4px'}}
+                size={20}/></span></button>
 
                 <div className={styles.downloadOn}>
                 <div className={styles.appStore}>

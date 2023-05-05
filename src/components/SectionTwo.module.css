@@ -47,7 +47,12 @@
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
-   
+   transition: all 0.3s;
+}
+.eachContainer div:hover{
+    width: 260px;
+    height: 260px;
+    padding: 20px;
 }
 .eachContainer div img{
     object-fit: contain;
@@ -72,4 +77,9 @@
 
 @media screen and (max-width:600px) {
     .eachContainer div{width: 85vw;}
+    .eachContainer div:hover{
+        width: 85vw;
+        /* height: 270px; */
+        padding: 10px;
+    }
 }

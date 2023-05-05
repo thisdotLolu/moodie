@@ -5,7 +5,7 @@
 }
 
 .inner{
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
     font-family: THICCCBOI;
     /* display: flex; */
@@ -77,6 +77,9 @@
     margin-bottom: 20px;
     margin-top: 20px;
     transition: all 0.3s;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: center;
 }
 
 
@@ -107,6 +110,19 @@
     color:#7A7D9C;
 }
 
+@media screen and (max-width:1450px) {
+    .inner{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .inner{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 @media screen and (max-width:600px) {
     .right, .bottom, .top{
         flex-direction: column;
@@ -127,10 +143,8 @@
     .right{
         padding: 10px;
     }
-}
-@media screen and (max-width:1600px) {
     .inner{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

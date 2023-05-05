@@ -23,7 +23,7 @@ const Footer = () => {
 
                 />
                 
-                <button>Subscribe<span><BsArrowRightShort size={20}/></span></button>
+                <button>Subscribe<span><BsArrowRightShort style={{marginTop:'4px'}} size={20}/></span></button>
             </div>
 
             <div className={styles.right}>

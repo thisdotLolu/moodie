@@ -90,6 +90,7 @@ const Navbar = ({open,setOpen}) => {
                 to='/signup'>
                 <button>
                   Get Started <span><BsArrowRightShort
+                  style={{marginTop:'4px'}}
                 size={20}
                 /></span>
                 </button>

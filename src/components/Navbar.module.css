@@ -3,7 +3,7 @@
 }
 
 .inner{
-    max-width: 1500px;
+    max-width: 1300px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -99,6 +99,18 @@
 .openNav{
     display: none;
 }
+@media screen and (max-width:1450px) {
+    .inner{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .inner{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
 
 @media screen and (max-width:600px) {
     .leftNav,.middleNav{
@@ -111,11 +123,8 @@
     .openNav{
         display: block;
     }
-}
-
-@media screen and (max-width:1600px) {
     .inner{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

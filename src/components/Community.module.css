@@ -74,9 +74,15 @@
     }
 }
 
-@media screen and (max-width:1200px) {
-    .right{
-        padding-left: 30px;
-        padding-right: 30px;
+/* @media screen and (max-width:1450px) {
+    .inner{
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
+@media screen and (max-width:1300px) {
+    .inner{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+} */
