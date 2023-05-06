@@ -80,17 +80,20 @@ const UseCases = ({open,setOpen}) => {
 
 
             <div className={styles.sectionTwo}>
+               
                 <div className={styles.heading}>Integrations</div>
 
-                <div className={styles.subHeading}>
-                    <h2>
-                    Moodie integrates with all the tools you're already using
-                    </h2>
+<div className={styles.subHeading}>
+    <h2>
+    Moodie integrates with all the tools you're already using
+    </h2>
 
-                    <div className={styles.right}>
-                        <p>Browse Integrations </p><BsArrowRightShort size={20}/>
-                    </div>
-                </div>
+    <div className={styles.right}>
+        <p>Browse Integrations </p><BsArrowRightShort size={20}/>
+    </div>
+</div>
+               
+                
 
 
                 <div
@@ -117,7 +120,7 @@ const UseCases = ({open,setOpen}) => {
                             <h4>{slide.header}</h4>
                             <p>{slide.subHeader}</p>
                         </div>
-                        <div>{slide.content}</div>
+                        <div className={styles.slideContent}>{slide.content}</div>
                     </SwiperSlide>))}
                 </Swiper>
                 </div>
@@ -146,7 +149,7 @@ const UseCases = ({open,setOpen}) => {
                             <h4>{slide.header}</h4>
                             <p>{slide.subHeader}</p>
                         </div>
-                        <div>{slide.content}</div>
+                        <div className={styles.slideContent}>{slide.content}</div>
                     </SwiperSlide>))}
                 </Swiper>
                 </div>

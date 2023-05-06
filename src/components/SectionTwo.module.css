@@ -50,9 +50,7 @@
    transition: all 0.3s;
 }
 .eachContainer div:hover{
-    width: 260px;
-    height: 260px;
-    padding: 20px;
+ transform: scale(1.1);
 }
 .eachContainer div img{
     object-fit: contain;

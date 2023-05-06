@@ -144,5 +144,7 @@ html,body{
 
 .useCase_Swiper{
   height: 400px;
-  width: 100%;
+  /* width: 90vw; */
+  background-color: transparent;
+  margin: 0 auto;
 }
