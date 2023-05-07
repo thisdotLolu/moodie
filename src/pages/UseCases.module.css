@@ -72,8 +72,7 @@
     color:#5335D9;
     align-self: flex-start;
     margin-bottom: 50px;
-    margin-left: 5vw;
-    
+    margin-left: 15vw;
 }
 
 .sectionTwo .subHeading{
@@ -81,7 +80,7 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 70vw;
 }
 
 .sectionTwo .subHeading h2{
@@ -100,14 +99,15 @@
 
 .swiperContainer{
     margin-top: 100px;
-    height: 500px;
+    height: 440px;
     background-image: url('../../public/backgroundslideblue.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* width:90vw; */
     max-width:1200px;
     margin: 0 auto;
+    border-radius:50px;
 }
 
 .slideContainer{

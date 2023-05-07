@@ -16,12 +16,13 @@
     background-color: transparent;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-image: url('../../public/bg_img.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .faTimes{
@@ -97,9 +98,10 @@ form input{
     padding-left: 15px;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 50%;
     justify-content: center;
     margin-top: 10px;
+    margin-left: 25%;
 }
 
 .agree .line{

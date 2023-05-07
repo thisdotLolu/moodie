@@ -102,7 +102,7 @@ const Login = () => {
                     <span>By clicking here, I state that I have read and understood the terms and conditions</span> */}
                     
                     <button
-                    style={{width:'95%'}}
+                    // style={{width:'95%'}}
                     >
                         Sign Up
                     </button>
