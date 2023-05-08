@@ -57,6 +57,12 @@ form{
 .formSection{
     width: 100%;
 }
+.checkLine{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 form div{
     display: flex;
@@ -102,6 +108,7 @@ form input{
     justify-content: center;
     margin-top: 10px;
     margin-left: 25%;
+    margin-bottom: 20px;
 }
 
 .agree .line{
@@ -121,9 +128,7 @@ form input{
     flex: 1;
     color: #C5C5C5;
 }
-.agree p{
-    margin-top: 20px;
-}
+
 .agree img{
     margin: 10px;
 }
