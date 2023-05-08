@@ -62,7 +62,8 @@ form{
     display: flex;
     width: 100%;
     align-items: flex-start;
-    height: fit-content;
+    /* height: fit-content; */
+    justify-content: center;
 }
 
 form div{
@@ -94,8 +95,8 @@ form input{
 }
 
 input[type='checkbox']{
-    width:20px;
-    height: 20px;
+    width:15px;
+    height: 15px;
 }
 
 .agree button{
