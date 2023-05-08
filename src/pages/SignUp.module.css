@@ -1,6 +1,5 @@
 .container{
     height: 100vh;
-    
 }
 
 .inner{
@@ -16,13 +15,10 @@
     background-color: transparent;
     position: relative;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     background-image: url('../../public/bg_img.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .faTimes{
@@ -30,6 +26,7 @@
     right: 30px;
     top:30px;
 }
+
 .inner .right{
     display: flex;
     flex-direction: column;
@@ -62,7 +59,6 @@ form{
     display: flex;
     width: 100%;
     align-items: flex-start;
-    /* height: fit-content; */
     justify-content: center;
 }
 
@@ -97,6 +93,7 @@ form input{
 input[type='checkbox']{
     width:15px;
     height: 15px;
+    margin-right:5px;
 }
 
 .agree button{
@@ -131,6 +128,7 @@ input[type='checkbox']{
     width: 100%;
     background-color: #C5C5C5;
 }
+
 .line p{
     flex: 1;
     color: #C5C5C5;
@@ -144,7 +142,14 @@ input[type='checkbox']{
     .inner .left{
         display: none;
     }
+
     form div{
         flex-direction: column;
+    }
+
+    input[type='checkbox']{
+        width:17px;
+        height: 17px;
+        margin-right: -10px;
     }
 }
