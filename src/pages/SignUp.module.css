@@ -57,11 +57,12 @@ form{
 .formSection{
     width: 100%;
 }
+
 .checkLine{
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
 }
 
 form div{
@@ -90,6 +91,11 @@ form input{
     width: 100%;
     margin-top: 20px;
     font-size: .8rem;
+}
+
+input[type='checkbox']{
+    width:20px;
+    height: 20px;
 }
 
 .agree button{
