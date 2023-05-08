@@ -94,16 +94,14 @@ html,body{
   position:relative;
   width:100%;
   display: grid;
-  /* align-items: center;
-  justify-content: center; */
   place-items: center;
   overflow: hidden;
+  
 }
+
 .partners .slide-track{
   display: flex;
-  /* width: calc(250px * 10);
-   */
-   width: 100%;
+  width: 100%;
   animation: scroll 40s linear infinite;
   height: 400px;
 }
@@ -115,8 +113,6 @@ html,body{
   align-items: center;
   padding:10px;
 }
-
-
 
 .partners .slide img{
   width:100%;
@@ -137,8 +133,13 @@ html,body{
 
 
 @media screen and (max-width:600px) {
+  .partners{
+    margin-bottom: -150px;
+  }
   .partners .slide{
     height: 300px;
+    /* border: 1px solid red; */
+    /* margin-bottom: -150px; */
   }
 }
 
