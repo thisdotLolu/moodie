@@ -3,6 +3,7 @@ import styles from './Hero.module.css'
 import {BsArrowRightShort} from 'react-icons/bs'
 import { Fade } from "react-awesome-reveal";
 import {Zoom} from 'react-awesome-reveal'
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -15,9 +16,14 @@ const Hero = () => {
                 
                 <p>Mindfulness on-the-go for international students, one mind at a time. We are your mental health companion on the journey to success</p>
 
+                <Link to='/signup'
+                style={{textDecoration:"none",color:'white'}}
+                >
                 <button>Sign Up for Free <span><BsArrowRightShort 
                  style={{marginTop:'4px'}}
                 size={20}/></span></button>
+                </Link>
+                
 
                 <div className={styles.downloadOn}>
                 <div className={styles.appStore}>
@@ -38,7 +44,7 @@ const Hero = () => {
 
               
                 <div className={styles.right}>
-                <Zoom delay={1e3}>
+                <Zoom delay={200}>
                     <img 
                     src='/heroImage.png'
                     alt='heroImage'
